@@ -1,4 +1,4 @@
-# Blockchain fraud detection: Let’s analyze the data!
+# Blockchain fraud detection: Let’s analyze the data! (In progress)
 
 Emily Bauer(emmit.bauer@gmail.com)
 Kyusub Hwang (kyusubhwang@hanyang.ac.kr)
