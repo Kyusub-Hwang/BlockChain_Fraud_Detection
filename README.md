@@ -1,7 +1,7 @@
 Blockchain fraud detection: Let’s analyze the data!
 (In progress due 06/20/2021)
 
-Emily Bauer(em.bauer@ufl.edu)
+Emily Bauer(em.bauer@ufl.edu),
 Kyusub Hwang (kyusubhwang@hanyang.ac.kr)
 
 Contents
