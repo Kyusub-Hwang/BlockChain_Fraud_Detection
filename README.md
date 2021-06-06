@@ -28,9 +28,10 @@ The most well-known application of blockchain technology is Bitcoin, the leading
 A blockchain, as the name suggests, is similar to a linked list where each block references the previous block through the use of its hash. The block also contains the hash of its own contents (4). Thus, changing the contents of any one block would alter the hash of that block, meaning that the reference to that block would be altered in the next block, and so on. This means that all subsequent blocks in the chain will also be altered, invalidating them.
 
 An authentic Bitcoin transaction requires a set of public and private keys that are used as a digital signature to verify the transaction (6). The network can then confirm that this transaction is valid, using information about previous transactions, and the transaction can be written to a block (6). However, writing to a block is not a straightforward process. The only way to effectively alter a block is to alter that block and all the subsequent blocks, which requires a lot of work (5). This work comes from the process needed to validate a block within the blockchain. “…Bitcoin makes it computationally difficult to hash a block, by requiring that the resulting hash have specific numeric properties.” (7) This is known as proof of work. More specifically, in order to validate the block, a special number called a nonce must be found via random guessing. The correct nonce inserted into the hash function will create a certain desired hash value, usually ones starting with a certain number of zeros. Finding the correct nonce takes quite a bit of computational work, as well as time. Thus, having to do this multiple times, once for every block affected by changing the blockchain, becomes a nearly infeasible task.
+
 ![image](https://user-images.githubusercontent.com/79511478/120931171-74adcb00-c72b-11eb-84b1-99b1dc55258f.png)
 
- (9)
+(9)
 
 (1) https://link.springer.com/content/pdf/10.1007/s12599-017-0467-3.pdf
 (4) https://www.researchgate.net/profile/Suyash-Gupta-5/publication/325116198_Blockchain_Transaction_Processing/links/5af8c85f4585157136ec1bc0/Blockchain-Transaction-Processing.pdf
@@ -54,13 +55,7 @@ Cryptographic Hash Functions
  Secure Hash Algorithms (SHA) are a family of cryptographic hash functions published by the National Institute of Standards and Technology (NIST) as a U.S. Federal Information Processing Standard (FIPS). There are various versions of SHA, and SHA-256 is one of the most broadly used in blockchain protocols. Along with other multiple coins, Bitcoin uses SHA-256 hashing algorithm.
  
 Comparison of SHA
-Hashing Algorithm	Input	Output	Operations	Collision
-SHA-0	< 2^64	160 bits	+,and,or,xor,rotl	detected
-SHA-1	< 2^64	160 bits	+,and,or,xor,rotl	detected
-SHA-224	< 2^64	224 bits	+,and,or,xor,shr,rotr	-
-SHA-256	< 2^64	256 bits	+,and,or,xor,shr,rotr	-
-SHA-384	< 2^128	384 bits	+,and,or,xor,shr,rotr	-
-SHA-512	< 2^128	512 bits	+,and,or,xor,shr,rotr	-
+![image](https://user-images.githubusercontent.com/79511478/120931459-8e034700-c72c-11eb-87e8-ce4e495187ad.png)
  
 SHA-2 Mechanism
  ![image](https://user-images.githubusercontent.com/79511478/120931186-81322380-c72b-11eb-882f-b501fe502417.png)
@@ -125,7 +120,7 @@ Blockchain Hash Calculator using double SHA-256
 
 
 Conclusion
-
+- TBD
 
 	Source
 •	https://www.youtube.com/watch?v=_160oMzblY8&ab_channel=AndersBrownworthAndersBrownworth
